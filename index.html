@@ -47,14 +47,20 @@
   </head>
 
   <body>
+    <!-- preloder  -->
+    <div class="loader_bg">
+      <div class="loader"></div>
+    </div>
+    <!-- PRELOEDER END  -->
+
     <!-- nav start  -->
-    <header>
+    <header class="bg-my-dark">
       <div class="container">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <!-- <div class="container-fluid"> -->
-          <a class="navbar-brand" href="#"
-            ><img class="logo-img rounded-4" src="images/logo.png" alt=""
-          /></a>
+          <a class="navbar-brand" href="/"
+            ><img class="logo-img rounded-2" src="images/Logo.jpg" alt=""
+          /> VERSATILE</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -72,10 +78,34 @@
           >
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Home
+                  <div class="nav-line"></div
+                ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="product/about.html"
+                  >About
+                  <div class="nav-line"></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Galary
+                  <div class="nav-line"></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Protfollio
+                  <div class="nav-line"></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="product/contact.html"
+                  >Contact Us
+                  <div class="nav-line"></div
+                ></a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -85,25 +115,28 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Product
                 </a>
                 <ul
                   class="dropdown-menu show-my my-color-hover my-color my-color-hover"
                 >
                   <li>
-                    <a class="dropdown-item" href="sample.html">Sample</a>
+                    <a class="dropdown-item" href="product/t-shirt.html"
+                      >product/t-shirt</a
+                    >
                   </li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#">Shirt</a></li>
+                  <li><a class="dropdown-item" href="#">Pant</a></li>
+                  <li><a class="dropdown-item" href="#">Sweetshirt</a></li>
+                  <li><a class="dropdown-item" href="#">Cort</a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link" href=""
+                  >Join us
+                  <div class="nav-line"></div
+                ></a>
               </li>
             </ul>
             <!-- <form class="d-flex" role="search">
@@ -129,7 +162,9 @@
               <div
                 class="carousel-one-text"
                 data-aos="fade-down-right"
+                data-aos-once="true"
                 data-aos-offset="300"
+                data-aos-once="true"
                 data-aos-easing="ease-in-sine"
               >
                 <h1 class="fw-bold">
@@ -169,6 +204,7 @@
                 class="carousel-two-text"
                 data-aos="fade-wown-left"
                 data-aos-offset="300"
+                data-aos-once="true"
                 data-aos-easing="ease-in-sine"
               >
                 <h1 class="">MEET OUR BRAND NEW SOLUTION</h1>
@@ -189,7 +225,7 @@
                   name=""
                   id=""
                   class="my-color my-color-hover btn fw-lighter me-3 btn-lg ps-3 pe-3"
-                  href="#"
+                  href=""
                   role="button"
                   >Contact Us</a
                 >
@@ -202,183 +238,251 @@
     </main>
     <!-- hero section end -->
 
+    <!-- KNOW US ---  -->
+
+    <section>
+      <div class="container">
+        <div class="heading pt-5">
+          <div class="display-1 text-center pb-4">Know US</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            commodi libero inventore earum facilis molestias deserunt excepturi
+            maxime, nam labore odit quaerat temporibus quisquam architecto totam
+            quas accusantium vel minus!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            commodi libero inventore earum facilis molestias deserunt excepturi
+            maxime, nam labore odit quaerat temporibus quisquam architecto totam
+            quas accusantium vel minus!
+          </p>
+        </div>
+        <div
+          class="row pt-5 justify-content-center align-items-center text-center g-2 pb-5 pt-5"
+        >
+          <div class="col-12 col-lg-3 shadow">
+            <i class="fa-solid fa-ranking-star fa-2x"></i>
+            <h4 class="display-4 fw-semibold">400 +</h4>
+            <p>Manufacturing unit!!!</p>
+          </div>
+          <div class="col-12 col-lg-3 shadow">
+            <i class="fa-solid fa-trophy fa-2x"></i>
+            <h4 class="display-4 fw-semibold">9 +</h4>
+            <p>Awards</p>
+          </div>
+          <div class="col-12 col-lg-3 shadow">
+            <i class="fa-solid fa-people-roof fa-2x"></i>
+            <h4 class="display-4 fw-semibold">40K +</h4>
+            <p>Employees</p>
+          </div>
+          <div class="col-12 col-lg-3 shadow">
+            <i class="fa-solid fa-industry fa-2x"></i>
+            <h4 class="display-4 fw-semibold">37 +</h4>
+            <p>Total Factories</p>
+          </div>
+        </div>
+        <div class="factory row pt-5 justify-content-center align-items-center g-2">
+          <div class="col-12 col-lg-6">
+            <div class="heading">
+              <div class="fs-1">Our Factory</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis commodi libero inventore earum facilis molestias
+                deserunt excepturi maxime, nam labore odit quaerat temporibus
+                quisquam architecto totam quas accusantium vel minus!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis commodi libero inventore earum facilis molestias
+                deserunt excepturi maxime, nam labore odit quaerat temporibus
+                quisquam architecto totam quas accusantium vel minus!
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img class="img-fluid rounded-4" src="images/banner.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KNOW US END---  -->
+
     <!-- plan/ product section start  -->
     <section
       class="container plan-section"
       data-aos="fade-up"
       data-aos-offset="300"
+      data-aos-once="true"
       data-aos-easing="ease-in-sine"
     >
       <div class="plan-main">
         <div class="display-1 text-center">
           Our Products
+          <div class="nav-line"></div>
           <hr class="border border-light" />
         </div>
         <div class="row justify-content-center text-center plan gap-4 p-3">
           <div
-            class="col border product-box border-light rounded my-color-hover p-0"
+            class="col border product-box border-light rounded p-0 shadow"
             data-aos="fade-down-right"
             data-aos-offset="300"
+            data-aos-once="true"
             data-aos-easing="ease-in-sine"
           >
-            <a class="product-link" href="">
-              <div class="product-images ">
-                <div class="product-text ">
-                  <div class="product-text-child ">
-                    <h4>This is product</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio maxime labore recusandae perferendis ea?</p>
-                  </div>
-                </div>
-                <img class="img-fluid " src="images/product/t.jpg" alt="" />
-              </div> 
-            </a>
-          </div>
-          <div
-            class="col border product-box border-light rounded my-color-hover p-0"
-            data-aos="fade-down-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            <a class="product-link" href="">
-              <div class="product-images ">
-                <div class="product-text ">
+            <a class="product-link" href="product/product-details.html">
+              <div class="product-images">
+                <div class="product-text">
                   <div class="product-text-child">
                     <h4>This is product</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio maxime labore recusandae perferendis ea?</p>
-                  </div>
-                </div>
-                <img class="img-fluid" src="images/product/pant.jpg" alt="" />
-              </div> 
-            </a>
-          </div>
-          
-          <div
-            class="col border product-box border-light rounded my-color-hover p-0"
-            data-aos="fade-down-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            <a class="product-link" href="">
-              <div class="product-images ">
-                <div class="product-text ">
-                  <div class="product-text-child">
-                    <h4>This is product</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio maxime labore recusandae perferendis ea?</p>
-                  </div>
-                </div>
-                <img class="img-fluid" src="images/product/pant3.jpg" alt="" />
-              </div> 
-            </a>
-          </div>
-          <div
-            class="col border product-box border-light rounded my-color-hover p-0"
-            data-aos="fade-down-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            <a class="product-link" href="">
-              <div class="product-images ">
-                <div class="product-text ">
-                  <div class="product-text-child">
-                    <h4>This is product</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio maxime labore recusandae perferendis ea?</p>
-                  </div>
-                </div>
-                <img class="img-fluid" src="images/product/photo-1523381294911-8d3cead13475.jpg" alt="" />
-              </div> 
-            </a>
-          </div>
-          <div
-            class="col border product-box border-light rounded my-color-hover p-0"
-            data-aos="fade-down-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            <a class="product-link" href="">
-              <div class="product-images ">
-                <div class="product-text ">
-                  <div class="product-text-child">
-                    <h4>This is product</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio maxime labore recusandae perferendis ea?</p>
-                  </div>
-                </div>
-                <img class="img-fluid" src="images/product/shirt.jpg" alt="" />
-              </div> 
-            </a>
-          </div>
-          <div
-            class="col border product-box border-light rounded my-color-hover p-0"
-            data-aos="fade-down-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            <a class="product-link" href="">
-              <div class="product-images ">
-                <div class="product-text ">
-                  <div class="product-text-child">
-                    <h4>This is product</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio maxime labore recusandae perferendis ea?</p>
-                  </div>
-                </div>
-                <img class="img-fluid" src="images/product/t-shirt.jpg" alt="" />
-              </div> 
-            </a>
-          </div>
-          <div
-            class="col border product-box border-light rounded my-color-hover p-0"
-            data-aos="fade-down-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            <a class="product-link" href="">
-              <div class="product-images ">
-                <div class="product-text ">
-                  <div class="product-text-child">
-                    <h4>This is product</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio maxime labore recusandae perferendis ea?</p>
-                  </div>
-                </div>
-                <img class="img-fluid" src="images/product/t.jpg" alt="" />
-              </div> 
-            </a>
-          </div>
-          <div
-            class="col border product-box border-light rounded my-color-hover p-0"
-            data-aos="fade-down-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
-            <a class="product-link" href="">
-              <div class="product-images ">
-                <div class="product-text ">
-                  <div class="product-text-child">
-                    <h4>This is product</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio maxime labore recusandae perferendis ea?</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad distinctio maxime labore recusandae perferendis ea?
+                    </p>
+                    <a class="btn btn-dark" href=""> Buy Now </a>
+                    <a class="btn btn-dark" href="">
+                      <i class="fa-solid fa-cart-plus"></i> Add to cart
+                    </a>
                   </div>
                 </div>
                 <img class="img-fluid" src="images/product/tshirt.png" alt="" />
-              </div> 
+              </div>
             </a>
           </div>
           <div
-            class="col border product-box border-light rounded my-color-hover p-0"
+            class="col border product-box border-light rounded p-0 shadow"
             data-aos="fade-down-right"
             data-aos-offset="300"
+            data-aos-once="true"
             data-aos-easing="ease-in-sine"
           >
-            <a class="product-link" href="">
-              <div class="product-images ">
-                <div class="product-text ">
+            <a class="product-link" href="product/product-details.html">
+              <div class="product-images">
+                <div class="product-text">
                   <div class="product-text-child">
                     <h4>This is product</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad distinctio maxime labore recusandae perferendis ea?</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad distinctio maxime labore recusandae perferendis ea?
+                    </p>
+                    <a class="btn btn-dark" href=""> Buy Now </a>
+                    <a class="btn btn-dark" href="">
+                      <i class="fa-solid fa-cart-plus"></i> Add to cart
+                    </a>
                   </div>
                 </div>
-                <img class="img-fluid" src="images/product/pant.jpg" alt="" />
-              </div> 
+                <img class="img-fluid" src="images/product/tshirt.png" alt="" />
+              </div>
             </a>
           </div>
-          
+
+          <div
+            class="col border product-box border-light rounded p-0 shadow"
+            data-aos="fade-down-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine"
+          >
+            <a class="product-link" href="product/product-details.html">
+              <div class="product-images">
+                <div class="product-text">
+                  <div class="product-text-child">
+                    <h4>This is product</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad distinctio maxime labore recusandae perferendis ea?
+                    </p>
+                    <a class="btn btn-dark" href=""> Buy Now </a>
+                    <a class="btn btn-dark" href="">
+                      <i class="fa-solid fa-cart-plus"></i> Add to cart
+                    </a>
+                  </div>
+                </div>
+                <img class="img-fluid" src="images/product/tshirt.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div
+            class="col border product-box border-light rounded p-0 shadow"
+            data-aos="fade-down-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine"
+          >
+            <a class="product-link" href="product/product-details.html">
+              <div class="product-images">
+                <div class="product-text">
+                  <div class="product-text-child">
+                    <h4>This is product</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad distinctio maxime labore recusandae perferendis ea?
+                    </p>
+                    <a class="btn btn-dark" href=""> Buy Now </a>
+                    <a class="btn btn-dark" href="">
+                      <i class="fa-solid fa-cart-plus"></i> Add to cart
+                    </a>
+                  </div>
+                </div>
+                <img class="img-fluid" src="images/product/tshirt.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div
+            class="col border product-box border-light rounded p-0 shadow"
+            data-aos="fade-down-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine"
+          >
+            <a class="product-link" href="product/product-details.html">
+              <div class="product-images">
+                <div class="product-text">
+                  <div class="product-text-child">
+                    <h4>This is product</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad distinctio maxime labore recusandae perferendis ea?
+                    </p>
+                    <a class="btn btn-dark" href=""> Buy Now </a>
+                    <a class="btn btn-dark" href="">
+                      <i class="fa-solid fa-cart-plus"></i> Add to cart
+                    </a>
+                  </div>
+                </div>
+                <img class="img-fluid" src="images/product/tshirt.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div
+            class="col border product-box border-light rounded p-0 shadow"
+            data-aos="fade-down-right"
+            data-aos-offset="300"
+            data-aos-once="true"
+            data-aos-easing="ease-in-sine"
+          >
+            <a class="product-link" href="product/product-details.html">
+              <div class="product-images">
+                <div class="product-text">
+                  <div class="product-text-child">
+                    <h4>This is product</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Ad distinctio maxime labore recusandae perferendis ea?
+                    </p>
+                    <a class="btn btn-dark" href=""> Buy Now </a>
+                    <a class="btn btn-dark" href="">
+                      <i class="fa-solid fa-cart-plus"></i> Add to cart
+                    </a>
+                  </div>
+                </div>
+                <img class="img-fluid" src="images/product/tshirt.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="row justify-content-center align-items-center g-2 pb-5">
+            <div class="col "><a class="btn btn-dark" href="product/t-shirt.html">view more..</a></div>
+          </div>
         </div>
       </div>
     </section>
@@ -389,18 +493,20 @@
       class="bg-my-dark"
       data-aos="fade-down"
       data-aos-offset="300"
+      data-aos-once="true"
       data-aos-easing="ease-in-sine"
     >
       <section class="container pt-5">
-        <div class="display-1 text-center pt-5 mt-5 pb-5">Our clints</div>
+        <div class="display-1 text-center pt-5 mt-5 pb-5">Our Brand</div>
         <hr class="border border-light mb-5" />
         <div
           class="row justify-content-center text-center gap-5 p-1"
           data-aos="fade-left"
           data-aos-offset="300"
+          data-aos-once="true"
           data-aos-easing="ease-in-sine"
         >
-          <div class="owl-carousel owl-two owl-theme">
+          <div class="owl-carousel col owl-two owl-theme">
             <div
               class="item clint rounded my-color-hover col p-5 border border-light position-relative"
             >
@@ -480,6 +586,7 @@
           class="row justify-content-center text-center gap-5 p-1"
           data-aos="fade-right"
           data-aos-offset="300"
+          data-aos-once="true"
           data-aos-easing="ease-in-sine"
         >
           <div class="owl-carousel owl-three owl-theme">
@@ -578,34 +685,36 @@
     <section
       data-aos="fade-down"
       data-aos-offset="300"
+      data-aos-once="true"
       data-aos-easing="ease-in-sine"
     >
       <div class="container certificate">
-      <div class="row ">
-        <div class="col">
-          <div class="display-2 text-center pt-5 mt-5">Our Review</div>
+        <div class="row">
+          <div class="col">
+            <div class="display-2 text-center pt-5 mt-5">Our Review</div>
+          </div>
         </div>
-      </div>
         <!-- review  -->
 
         <div class="owl-carousel owl-four owl-theme pb-5">
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
+              <div class="d-flex w-100 col col">
                 <div class="text pe-2 w-75">
                   <h3 class="display-6">Amazing service</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
                 </div>
                 <div class="review-img">
                   <a href="">
-                    <img
-                      class="img-fluid "
-                      src="images/review/two.jpg"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="images/review/two.jpg" alt="" />
                   </a>
                 </div>
               </div>
@@ -613,21 +722,22 @@
           </div>
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
-                <div class="text pe-2 w-75 ">
+              <div class="d-flex w-100 col">
+                <div class="text pe-2 w-75">
                   <h3 class="display-6">Aweoseme service</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
                 </div>
                 <div class="review-img">
                   <a href="">
-                    <img
-                      class="img-fluid "
-                      src="images/review/one.jpg"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="images/review/one.jpg" alt="" />
                   </a>
                 </div>
               </div>
@@ -635,18 +745,23 @@
           </div>
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
+              <div class="d-flex w-100 col">
                 <div class="text pe-2 w-75">
                   <h3 class="display-6">This is best service</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
                 </div>
                 <div class="review-img">
                   <a href="">
                     <img
-                      class="img-fluid "
+                      class="img-fluid shadow"
                       src="images/review/three.jpg"
                       alt=""
                     />
@@ -657,18 +772,23 @@
           </div>
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
+              <div class="d-flex w-100 col">
                 <div class="text pe-2 w-75">
                   <h3 class="display-6">BEST</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
                 </div>
                 <div class="review-img">
                   <a href="">
                     <img
-                      class="img-fluid "
+                      class="img-fluid shadow"
                       src="images/review/four.jpg"
                       alt=""
                     />
@@ -679,18 +799,23 @@
           </div>
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
+              <div class="d-flex w-100 col">
                 <div class="text pe-2 w-75">
                   <h3 class="display-6">Recommend</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
                 </div>
                 <div class="review-img">
                   <a href="">
                     <img
-                      class="img-fluid "
+                      class="img-fluid shadow"
                       src="images/review/five.webp"
                       alt=""
                     />
@@ -701,21 +826,22 @@
           </div>
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
+              <div class="d-flex w-100 col">
                 <div class="text pe-2 w-75">
                   <h3 class="display-6">This is awesome</h3>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
                 </div>
                 <div class="review-img">
                   <a href="">
-                    <img
-                      class="img-fluid "
-                      src="images/review/six.jpg"
-                      alt=""
-                    />
+                    <img class="img-fluid" src="images/review/six.jpg" alt="" />
                   </a>
                 </div>
               </div>
@@ -725,7 +851,7 @@
       </div>
     </section>
 
-    <hr class="bg-light text-light border border-2 mb-5 mt-5" >
+    <hr class="bg-light text-light border border-2 mb-5 mt-5" />
 
     <!-- review section end -->
 
@@ -733,6 +859,7 @@
     <section
       data-aos="fade-down"
       data-aos-offset="300"
+      data-aos-once="true"
       data-aos-easing="ease-in-sine"
     >
       <div class="container certificate">
@@ -740,9 +867,10 @@
           class="row justify-content-center pt-5 mt-5 border-light border-bottom"
         >
           <div
-            class="col p-4"
+            class="col-12 col-lg-8 p-4 text-lg-start text-center"
             data-aos="fade-up-right"
             data-aos-offset="300"
+            data-aos-once="true"
             data-aos-easing="ease-in-sine"
           >
             <h1 class="">OUR CERTIFICATION</h1>
@@ -754,14 +882,15 @@
             </p>
           </div>
           <div
-            class="col d-flex justify-content-end"
+            class="col-12 col-lg-4 d-flex justify-content-lg-end justify-content-center"
             data-aos="fade-up-left"
             data-aos-offset="300"
+            data-aos-once="true"
             data-aos-easing="ease-in-sine"
           >
             <img
-              class="img-fluid w-50"
-              src="images/2-Certificate (1).gif"
+              class="img-fluid w-=75 ms-lg-auto"
+              src="images/Certificate.gif"
               alt=""
             />
           </div>
@@ -770,41 +899,112 @@
 
         <div class="owl-carousel owl-four owl-theme pb-5">
           <div class="row pt-5">
-            <div class="col">
-              <div class="d-flex w-100">
-                <div class="text pe-2 w-50">
-                  <h3 class="display-6">This is certificat of</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Sed aliquid laborum enim minima totam cupiditate!
-                  </p>
-                </div>
-                <div class="certificate-img">
-                  <a href="">
-                    <img
-                      class="img-fluid w-100"
-                      src="images/certificate/bgmea.png"
-                      alt=""
-                    />
-                  </a>
-                </div>
+            <div class="col-12 col-lg-12 d-lg-flex">
+              <!-- <div class="d-flex w-100 col-12"> -->
+              <div class="col-12 col-lg-8">
+                <h3 class="display-6">This is certificat of</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                  aliquid laborum enim minima totam cupiditate!
+                </p>
               </div>
+              <div class="col-12 col-lg-4">
+                <a href="">
+                  <img
+                    class="img-fluid ms-auto me-auto"
+                    src="images/certificate/bgmea.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <!-- </div> -->
             </div>
           </div>
           <div class="row pt-5">
+            <div class="col-12 col-lg-12 d-lg-flex">
+              <!-- <div class="d-flex w-100 col-12"> -->
+              <div class="col-12 col-lg-8">
+                <h3 class="display-6">This is certificat of</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                  aliquid laborum enim minima totam cupiditate!
+                </p>
+              </div>
+              <div class="col-12 col-lg-4">
+                <a class="" href="">
+                  <img
+                    class="img-fluid ms-auto me-auto w-50"
+                    src="images/certificate/Accord Recognition Letter-Vertex Wear Ltd.jpg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-12 col-lg-12 d-lg-flex">
+              <!-- <div class="d-flex w-100 col-12"> -->
+              <div class="col-12 col-lg-8">
+                <h3 class="display-6">This is certificat of</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                  aliquid laborum enim minima totam cupiditate!
+                </p>
+              </div>
+              <div class="col-12 col-lg-4">
+                <a href="">
+                  <img
+                    class="img-fluid ms-auto me-auto"
+                    src="images/certificate/leed.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-12 col-lg-12 d-lg-flex">
+              <!-- <div class="d-flex w-100 col-12"> -->
+              <div class="col-12 col-lg-8">
+                <h3 class="display-6">This is certificat of</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed
+                  aliquid laborum enim minima totam cupiditate!
+                </p>
+              </div>
+              <div class="col-12 col-lg-4">
+                <a href="">
+                  <img
+                    class="img-fluid ms-auto me-auto"
+                    src="images/certificate/wrap.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+          <!-- <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
-                <div class="text pe-2 w-50">
+              <div class="d-flex w-100 col">
+                <div class="text col-12 col-lg-6 pe-2 w-50">
                   <h3 class="display-6">This is certificat of</h3>
-                  <p>
+<p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+<i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
                 </div>
-                <div class="certificate-img">
+                <div class="col-12 col-lg-6 certificate-img">
                   <a href="">
                     <img
-                      class="img-fluid w-100"
+                      class="img-fluid w-50 ms-auto"
                       src="images/certificate/Accord Recognition Letter -Neo Fashion Ltd.jpg"
                       alt=""
                     />
@@ -815,18 +1015,23 @@
           </div>
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
-                <div class="text pe-2 w-50">
+              <div class="d-flex w-100 col">
+                <div class="text col-12 col-lg-6 pe-2 w-50">
                   <h3 class="display-6">This is certificat of</h3>
-                  <p>
+<p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+<i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
                 </div>
-                <div class="certificate-img">
+                <div class="col-12 col-lg-6 certificate-img">
                   <a href="">
                     <img
-                      class="img-fluid w-100"
+                      class="img-fluid w-50 ms-auto"
                       src="images/certificate/Accord Recognition Letter-Vertex Wear Ltd.jpg"
                       alt=""
                     />
@@ -837,18 +1042,23 @@
           </div>
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
-                <div class="text pe-2 w-50">
+              <div class="d-flex w-100 col">
+                <div class="text col-12 col-lg-6 pe-2 w-50">
                   <h3 class="display-6">This is certificat of</h3>
-                  <p>
+<p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+<i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
                 </div>
-                <div class="certificate-img">
+                <div class="col-12 col-lg-6 certificate-img">
                   <a href="">
                     <img
-                      class="img-fluid w-100"
+                      class="img-fluid w-50 ms-auto"
                       src="images/certificate/leed.png"
                       alt=""
                     />
@@ -859,18 +1069,23 @@
           </div>
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
-                <div class="text pe-2 w-50">
+              <div class="d-flex w-100 col">
+                <div class="text col-12 col-lg-6 pe-2 w-50">
                   <h3 class="display-6">This is certificat of</h3>
-                  <p>
+<p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+<i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
                 </div>
-                <div class="certificate-img">
+                <div class="col-12 col-lg-6 certificate-img">
                   <a href="">
                     <img
-                      class="img-fluid w-100"
+                      class="img-fluid w-50 ms-auto"
                       src="images/certificate/wrap.png"
                       alt=""
                     />
@@ -881,18 +1096,23 @@
           </div>
           <div class="row pt-5">
             <div class="col">
-              <div class="d-flex w-100">
-                <div class="text pe-2 w-50">
+              <div class="d-flex w-100 col">
+                <div class="text col-12 col-lg-6 pe-2 w-50">
                   <h3 class="display-6">This is certificat of</h3>
-                  <p>
+<p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Sed aliquid laborum enim minima totam cupiditate!
                   </p>
+<i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star text-warning"></i>
+                  <i class="fa-solid fa-star-half-stroke text-warning"></i>
                 </div>
-                <div class="certificate-img">
+                <div class="col-12 col-lg-6 certificate-img">
                   <a href="">
                     <img
-                      class="img-fluid w-100"
+                      class="img-fluid w-50 ms-auto"
                       src="images/certificate/Accord Recognition Letter - Dress World Ltd.jpg"
                       alt=""
                     />
@@ -900,7 +1120,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -909,27 +1129,29 @@
     <!-- footer start  -->
     <footer
       data-aos="fade-up"
-      data-aos-offset="300"
+      data-aos-offset="200"
+      data-aos-once="true"
       data-aos-easing="ease-in-sine"
     >
       <div class="container">
         <div class="row">
           <div
-            class="col"
-            data-aos="fade-up-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+            class="col-12 d-flex justify-content-center col-lg-4"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-once="true"
           >
             <img
-              class="img-fluid h-75 rounded-3"
+              class="img-fluid w-50 pb-5 h-lg-75 rounded-3"
               src="images/contact.gif"
               alt=""
             />
           </div>
           <div
-            class="col"
-            data-aos="fade-right"
+            class="col-6 col-lg-4"
+            data-aos="fade-up"
             data-aos-offset="200"
+            data-aos-once="true"
             data-aos-easing="ease-in-sine"
           >
             <ul>
@@ -942,9 +1164,10 @@
             </ul>
           </div>
           <div
-            class="col"
-            data-aos="fade-right"
-            data-aos-offset="300"
+            class="col-6 col-lg-4"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-once="true"
             data-aos-easing="ease-in-sine"
           >
             <ul>
@@ -1003,12 +1226,26 @@
     owltwo.owlCarousel({
       items: 4,
       loop: true,
-      margin: 10,
-      autoplay: true,
+      margin: 0,
+      autoplay: false,
+      center: true,
       autoplayTimeout: 2000,
       autoplayHoverPause: false,
       dots: false,
       nav: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          center: true,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 4,
+        },
+      },
     });
     owlthree.owlCarousel({
       items: 4,
@@ -1019,16 +1256,49 @@
       autoplayHoverPause: false,
       dots: true,
       nav: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          center: true,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 4,
+        },
+      },
     });
     owlfour.owlCarousel({
       items: 1,
       loop: true,
       margin: 10,
-      autoplay: true,
+      autoplay: false,
       autoplayTimeout: 5000,
       autoplayHoverPause: false,
       dots: true,
       nav: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          center: true,
+        },
+        600: {
+          items: 1,
+        },
+        1000: {
+          items: 1,
+        },
+      },
     });
+  </script>
+
+  <!-- preloder  -->
+  <script>
+    setTimeout(function () {
+      $(".loader_bg").fadeToggle();
+    }, 1500);
   </script>
 </html>
